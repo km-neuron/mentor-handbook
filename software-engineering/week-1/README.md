@@ -53,13 +53,11 @@
 ## Challenging
 
 ### My Git Culinary Collection
-- Concepts: Membuat sebuah website sederhana ( diberikan satu set file, kemudian dibuat sub-folder untuk organize gambar dan css, kemudian perlu edit file html untuk merubah folder. Contoh file untuk website diberikan, ini lebih ke membuat folder, memindahkan file dan edit file, pakai terminal pastinya. )
-- Input:
-- Output:
+- Concepts: Put World Culinary Collection into Git. Initialize a local repo, create the primary folder and summary.txt, then commit. For each country, create a new branch, then add the culinary together with the subfolder. Remember to update the summary file in primary folder. Then switch branch to master/main and do a merge.
+- Input: Googling result for culinary data
+- Output: A local git repo containing branches of country and culinary data.
 - Rule:
+  - 1 culinary must have 1 text and at least 1 image
+  - Each country have it's own branch.
+  - If possible repeat this 5 times, each student sharing their screen and googling themselves with other mentee supporting and mentor facilitating if mistakes are made.
 
-### Git & Github
-- Concepts: lakukan git branch,  git checkout main, git merge
-- Input:
-- Output:
-- Rule:
