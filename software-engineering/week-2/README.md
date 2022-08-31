@@ -27,30 +27,33 @@
 
 ## Basic
 
-### Algo & Pseudocode
+### Online Food Order
 
-- Concepts: food order, hotel check in, travel from city A to city B ( Jkt-Bdg, Sby-Mlg, )
-- Input:
-- Output:
-- Rule:
+- Concepts: Online Food Order
+- Input: Idea
+- Output: Algorithm and Pseudocode, can use flowchart
+- Rule: The steps must include choosing from the menu and payment.
 
-### Git & Github
-- Concepts: Membuat my first github project, git init, git add, git commit, git status. Project ini berisi laporan harian kampus merdeka, skripsi... Kemudian membuat repo di github dan menyambungkan my first project.
-- Input:
-- Output:
+### Github Link
+- Concepts: Using github as an online repo. Using the World Culinary Collection git from the previous week or create a new one is also OK as long as it's similar in structure, for example World Heritage Sites. It is also OK for the mentor to setup his/her github repo and use it together with the mentee. Use git remote and git push to link the local repo with github.
+- Input: Existing git project
+- Output: Git project is available in Github.
 - Rule:
+  - preferably use the local git repo from last week.
+  - use git remote to link with github repo
+  - use git push after commit and check the changes in github.
 
 ## Challenging
 
-### Algo & Pseudocode
+### Vacation Planning with Github
 
-- Concepts: Vacation planning ( search destination, booking, travelling ), 
-- Input:
-- Output:
+- Concepts: Vacation planning ( search destination, booking, travelling )
+- Input: Ideas, github repo from mentor
+- Output: Algorithm using flowchart and pseudocode using text in github
 - Rule:
-
-### Git & Github
-- Concepts: Melanjutkan my first github repo, lakukan git push agar semua modif terupdate, lalu simulasikan laptop rusak, jadi harus git clone kemudian git branch, edit2 file, git add, git commit, git branch, edit2 file, create PR, review PR, approve PR.
-- Input:
-- Output:
-- Rule:
+  - Make this a individual collective effort, meaning, give the mentee time, 15 minutes perhaps to create the algorithm and pseudocode, commit and push to individual branch by their names. No PR request yet.
+  - Then mentor will show one time how to create a PR
+  - Mentee will then create PR based off their branch.
+  - Mentor will then do a review for each PR request, pointing out improvement areas for individual mentee, the other mentee can watch as they can learn also.
+  - It is possible to have merge conflict, try to resolve together.
+  - Can use tools for flowchart such as app.diagrams.net, lucidchart, etc. Export as jpg / png.
