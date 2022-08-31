@@ -30,11 +30,12 @@
 
 ## Basic
 
-### Terminal & Code Editor
-- Concepts: Riset tentang sekolah ( create folder utama, subfolder nama sekolah dengan teks dan gambar, di folder utama ada satu file summary)
-- Input:
-- Output:
-- Rule:
+### World Culinary Collection
+- Concepts: One primary folder with with one summary list of the culinary collection and subfolders for each country, subfolders for culinary inside country is optional. Each culinary will have one text file and at least one image file.
+- Input: Google result of minimum 1 famous culinary from each nation. Minimum 3 nations.
+- Output: Text and picture of each culinary in subfolders by country and one summary file in primary folder.
+- Rule: 
+  - Final structure example see folder "world culinary collection"
 
 ### Git & Github
 - Concepts: Membuat my first project, git init, git add, git commit, git status. Project ini berisi laporan harian kampus merdeka, skripsi... 
