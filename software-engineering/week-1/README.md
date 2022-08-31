@@ -22,7 +22,7 @@
     - Can work with code editor, add/edit/remove text from a file opened with code editor
     - Can save file with code editor
   - Able to use basic git commands
-      - git config
+    - git config
     - git init
     - git status
     - git add
@@ -33,7 +33,7 @@
     - git checkout
     - git push
 
-## Pre-requisities
+## Pre-requisites
 
 - Install code editor (e.g. VS Code)
 - Install gitBash for Windows or git for Linux based distro (in WSL for windows)
@@ -41,52 +41,42 @@
 
 ## Basic
 
-### Greeting 1
+### Algo & Pseudocode
 
-- Concepts: init project, variable, if statement, I/O
-- Input: name & gender
-- Output: Hi {title} {name}
-- Title Rule:
-  - If male: Mr
-  - If female: Mrs
-
-### Greeting 2
-
-- Concepts: data type (string & int), nested if
-- Input: name, gender, and age
-- Output: Hi {title} {name}
-- Title Rule:
-  - If male and >= 17 y.o.: Mr
-  - If male and < 17 y.o: Boy
-  - If female and >= 17 y.o.: Ms
-  - If female and < 17 y.o.: Girl
-
-### Accummulator
-
-- Concepts: I/O read with counter
+- Concepts: food order, hotel check in, travel from city A to city B ( Jkt-Bdg, Sby-Mlg, )
 - Input:
-  - `n`: the number of inputs
-  - `n` `numbers`
 - Output:
-  - Sum of the numbers
+- Rule:
 
-### Odd Counter
-
-- Concepts: simple loop, modulo, if else, counter variable
+### Terminal & Code Editor
+- Concepts: Riset tentang sekolah ( create folder utama, subfolder nama sekolah dengan teks dan gambar, di folder utama ada satu file summary)
 - Input:
-  - `n`: the number of inputs
-  - `n` `numbers`
 - Output:
-  - The number of odd numbers
+- Rule:
+
+### Git & Github
+- Concepts: Membuat my first project, git init, git add, git commit, git status. Project ini berisi laporan harian kampus merdeka, skripsi... Kemudian membuat repo di github dan menyambungkan my first project, lakukan git branch,  git checkout main, git merge.
+- Input:
+- Output:
+- Rule:
 
 ## Challenging
 
-### Square Root Inference
+### Algo & Pseudocode
 
-- Concepts: loop, math, updating variable
-- Input: number `a`
-- Output: square root of `a`
+- Concepts: Vacation planning ( search destination, booking, travelling ), 
+- Input:
+- Output:
 - Rule:
-  - Loop n times
-  - Apply this formula `x = x - ((x*x - a) / (2*x))`
-  - Print the final value of `x`
+
+### Terminal & Code Editor
+- Concepts: Membuat sebuah website sederhana ( diberikan satu set file, kemudian dibuat sub-folder untuk organize gambar dan css, kemudian perlu edit file html untuk merubah folder. Contoh file untuk website diberikan, ini lebih ke membuat folder, memindahkan file dan edit file, pakai terminal pastinya. )
+- Input:
+- Output:
+- Rule:
+
+### Git & Github
+- Concepts: Diberikan satu repo untuk testing, kemudian lakukan git clone, git branch, edit2 file, git add, git commit, git branch, edit2 file, create PR, review PR, approve PR.
+- Input:
+- Output:
+- Rule:
