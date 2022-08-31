@@ -1,5 +1,11 @@
 # Software Engineering Mentoring Week-1
 
+## Basic Rules
+- This is not a demo!
+- Mentor will be the facilitator, guiding the mentee to solve the tasks.
+- One person will share their screen, can be the mentor and one of the mentee.
+- Mentee will take turn in giving the correct commands to be typed by person sharing his/her screen.
+
 ## Learning Objectives
 
 - Able to use tools commonly used by software engineer.
@@ -37,15 +43,16 @@
 - Rule: 
   - Final structure example see folder "world culinary collection"
 
-### Git & Github
-- Concepts: Membuat my first project, git init, git add, git commit, git status. Project ini berisi laporan harian kampus merdeka, skripsi... 
-- Input:
-- Output:
+### My first Git
+- Concepts: Create first git repo using git config, git init, then create Hello World file and use git add, git commit, git status.
+- Input: N/A
+- Output: one file containing "Hello World" inside a local git repo.
 - Rule:
+  - N/A
 
 ## Challenging
 
-### Terminal & Code Editor
+### My Git Culinary Collection
 - Concepts: Membuat sebuah website sederhana ( diberikan satu set file, kemudian dibuat sub-folder untuk organize gambar dan css, kemudian perlu edit file html untuk merubah folder. Contoh file untuk website diberikan, ini lebih ke membuat folder, memindahkan file dan edit file, pakai terminal pastinya. )
 - Input:
 - Output:
