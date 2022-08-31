@@ -1,5 +1,11 @@
 # Software Engineering Mentoring Week-2
 
+## Basic Rules
+- This is not a demo!
+- Mentor will be the facilitator, guiding the mentee to solve the tasks.
+- One person will share their screen, can be the mentor and one of the mentee.
+- Mentee will take turn in giving the correct commands to be typed by person sharing his/her screen.
+
 ## Learning Objectives
 
 - Understand daily activities as a software engineer.
