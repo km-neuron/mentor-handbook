@@ -1,7 +1,7 @@
 # Software Engineering Mentoring Week-1
 
 ## Basic Rules
-- This is not a demo!
+- **This is not a demo!**
 - Mentor will be the facilitator, guiding the mentee to solve the tasks.
 - One person will share their screen, can be the mentor and one of the mentee.
 - Mentee will take turn in giving the correct commands to be typed by person sharing his/her screen.
@@ -37,27 +37,91 @@
 ## Basic
 
 ### World Culinary Collection
-- Concepts: One primary folder with with one summary list of the culinary collection and subfolders for each country, subfolders for culinary inside country is optional. Each culinary will have one text file and at least one image file.
-- Input: Google result of minimum 1 famous culinary from each nation. Minimum 3 nations.
-- Output: Text and picture of each culinary in subfolders by country and one summary file in primary folder.
-- Rule: 
-  - Final structure example see folder "world culinary collection"
+- Concepts: 
+  - Terminal usage
+    - Create folder
+    - Create file
+    - Move between folders
+    - Move files between folders
+  - Code Editor
+    - Open file
+    - Edit file
+    - Save file
+- Input: 
+  - Ideas on famous food in the world
+- Output:
+  - One text file and one picture file of each culinary in subfolders by country
+  - One summary file in primary folder.
+  - Final structure example, see folder "world culinary collection"
+- Directions: 
+  - Create one folder to be used as primary folder
+  - Create one summary list file in primary folder
+  - Create subfolder for countries, minimum 3 subfolder.
+  - Decide on 3 countries that have famous culinary food.
+  - Name the famous culinary food
+  - Create empty file in folder country with the name of the food.
+  - Google the culinary food
+    - Find text to be used, can be the summary of the food or history of the food or the recipe.
+    - Put the text into a text file using text editor
+    - Find picture to represent the food.
+      - Download the picture
+      - Move the file to folder country where the text file is.
+- Rule
+  - Minimum of 3 countries
+  - Minimum of 1 food for each country
+  - One text file and one image file for each food
 
 ### My first Git
-- Concepts: Create first git repo using git config, git init, then create Hello World file and use git add, git commit, git status.
-- Input: N/A
-- Output: one file containing "Hello World" inside a local git repo.
+- Concepts: 
+  - git config
+  - git init
+  - git add
+  - git commit
+  - git status
+- Input: 
+  - "Hello World"
+- Output: 
+  - one file containing "Hello World" inside a local git repo.
+- Directions:
+  - Create a folder as working directory
+  - Run git config and update the data
+  - Run git init inside the working directory
+  - Create an empty file
+  - Edit the file and write "Hello World"
+  - Run git add
+  - Run git commit
+  - Run git status and explain
 - Rule:
-  - N/A
+  - Explain git status
+  - Can ask each mentee share their screen and do this step ( if time permits )
 
 ## Challenging
 
 ### My Git Culinary Collection
-- Concepts: Put World Culinary Collection into Git. Initialize a local repo, create the primary folder and summary.txt, then commit. For each country, create a new branch, then add the culinary together with the subfolder. Remember to update the summary file in primary folder. Then switch branch to master/main and do a merge.
-- Input: Googling result for culinary data
-- Output: A local git repo containing branches of country and culinary data.
+- Concepts: 
+  - git init
+  - git branch
+  - Basic git commands ( add, commit, status )
+  - git checkout to switch branch
+  - git merge
+Put World Culinary Collection into Git. Initialize a local repo, create the primary folder and summary.txt, then commit. For each country, create a new branch, then add the culinary together with the subfolder. Remember to update the summary file in primary folder. Then switch branch to master/main and do a merge.
+- Input: 
+  - Data from World Culinary Collection or create new ones
+- Output:
+  - A local git repo containing branches of country and culinary data.
+- Directions:
+  - Create primary folder
+  - Init a local repo inside primary folder
+  - Create summary file
+  - git add and commit
+  - Git branch for each country
+  - Create folder for each country
+  - Add the culinary file and image to each country
+  - Update summary file in primary folder
+  - git checkout to main branch
+  - git merge country branch to main
 - Rule:
-  - 1 culinary must have 1 text and at least 1 image
-  - Each country have it's own branch.
-  - If possible repeat this 5 times, each student sharing their screen and googling themselves with other mentee supporting and mentor facilitating if mistakes are made.
+  - Same rule as World Culinary Collection
+  - Each country have it's own branch, the order for directions does not matter (create folder then branch is OK, create branch then create folder is OK).
+  - If possible repeat this 5 times, each student sharing their screen and add new culinary ( googling, add, commit, merge) with other mentee supporting and mentor facilitating if mistakes are made.
 
