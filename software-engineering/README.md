@@ -10,7 +10,7 @@ Sesi mentoring yang diharapkan adalah sesi praktek sehingga siswa akan lebih ban
 
 Untuk lebih jelasnya silahkan menonton [video SWE Mentoring Briefing](https://drive.google.com/file/d/158weuTWSOqwMxRQKDkNp8zu4586K_nmG/view?usp=sharing).
 
-video here
+[![Watch the video](https://drive.google.com/file/d/1bvnYyIHW7OvgJ6PM0Ua4IYRSnd3S82QV/view?usp=sharing)]([https://youtu.be/vt5fpE0bzSY](https://drive.google.com/file/d/158weuTWSOqwMxRQKDkNp8zu4586K_nmG/view?usp=sharing))
 
 Terdapat 2 sesi mentoring di materi Software Engineering dan sudah kami siapkan materi mentoring di folder week-1 dan week-2. Terdapat juga video penjelasan mengenai materi challenge di setiap minggu.
 
