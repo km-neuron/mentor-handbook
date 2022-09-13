@@ -5,6 +5,7 @@
 - Mentor will be the facilitator, guiding the mentee to solve the tasks.
 - One person will share their screen, can be the mentor and one of the mentee.
 - Mentee will take turn in giving the correct commands to be typed by person sharing his/her screen.
+- For clarity, please watch [video SWE Mentoring Briefing Week-1](https://drive.google.com/file/d/1AmP7FWVJHdz5NF9SyLkzTB1sojqY4TYB/view?usp=sharing).
 
 ## Learning Objectives
 
