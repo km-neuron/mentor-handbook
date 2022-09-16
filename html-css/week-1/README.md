@@ -6,7 +6,7 @@
 - Mentor will be the facilitator, guiding the mentee to solve the tasks.
   - Share screen method
     - One person will share their screen, can be the mentor and one of the mentee.
-    - Mentee will take turn in giving the correct commands to be typed by person sharing his/her screen.
+    - Mentee will take turn in giving the correct syntax to be typed by person sharing his/her screen.
   - Using tools such as replit https://replit.com/
     - Everyone can login using their own account.
     - Mentor can have a tab for each mentee to monitor their work.
