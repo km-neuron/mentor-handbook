@@ -31,38 +31,43 @@
 ### World Culinary Collection Grid
 
 - Concepts:
-  - Use Grid
+  - CSS Grid
 - Input:
-  - 
+  - World Culinary Collection Website
 - Output: 
-  - 
-  - 
+  - World Culinary Collection Website using Grid layout.
 - Directions:
-  - 
+  - Apply CSS Grid to culinary section.
 - Rule:
-  - 
+  - N/A
 
 ### World Culinary Collection Responsive with Flex
 - Concepts: 
-  - 
+  - Responsive Web Design using Media Query
+  - CSS Flexbox
 - Input: 
+  - World Culinary Collection Website
 - Output: 
+  - World Culinary Collection Website using CSS Flexbox.
 - Directions:
-  - 
+  - Apply CSS Flexbox to culinary section.
+  - Add Media Query to website, then show by resizing the web browser.
 - Rule: 
-  - 
+  - N/A
 
 ## Challenging
 
 ### World Culinary Collection with Tailwind
 
 - Concepts:
-  - 
+  - Tailwind
 - Input:
-  - 
+  - World Culinary Collection Website
 - Output:
-  - 
+  - World Culinary Collection Website with Tailwind
 - Directions:
-  - 
+  - Apply Tailwind using Play CDN.
+  - Style text using Tailwind.
+  - Style form using Tailwind.
 - Rule:
-  - 
+  - N/A
