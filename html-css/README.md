@@ -8,7 +8,7 @@ Sesi mentoring yang diharapkan adalah sesi praktek sehingga siswa akan lebih ban
 
 >Note: Challenges yang ada boleh dianggap sebagai contoh, dimana challenge diberikan dengan tingkat kesulitan yang berjenjang dan berseri (build on top of the other). Sehingga mentor dipersilahkan jika memiliki challenge berupa contoh kasus sendiri.
 
-Untuk lebih jelasnya silahkan menonton [video HTML-CSS Mentoring Briefing](TBA).
+Untuk lebih jelasnya silahkan menonton [video HTML-CSS Mentoring Briefing](https://drive.google.com/file/d/1qwT25lN7Swuwc5HT1tPW7r1uwp2glC4W/view?usp=sharing).
 
 Terdapat 2 sesi mentoring di materi HTML-CSS dan sudah kami siapkan materi mentoring di folder week-1 dan week-2. Terdapat juga video penjelasan mengenai materi challenge di setiap minggu-nya.
 
