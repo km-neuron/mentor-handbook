@@ -11,6 +11,7 @@
     - Everyone can login using their own account
     - Mentor can have a tab for each mentee to monitor their work
     - Details over at Discord: https://discord.com/channels/996138478817513632/996141512704401579/1019923694254043136
+  - Video penjelasan Week-2 bisa dilihat di [Video Mentor Handbook HTML CSS Week-2](https://drive.google.com/file/d/1XZ29F-du8ctrYz11I6sqAQiTEIb9-bAr/view?usp=sharing)
 
 ## Learning Objectives
 
