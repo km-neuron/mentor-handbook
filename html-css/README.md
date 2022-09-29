@@ -6,7 +6,7 @@ Di materi HTML-CSS, para siswa akan belajar pengetahuan praktis HTML dan CSS ter
 
 Sesi mentoring yang diharapkan adalah sesi praktek sehingga siswa akan lebih banyak melakukan aktivitas dan mentor akan memberi arahan melalui challenges yang kami sudah siapkan.
 
->Note: Challenges yang ada boleh dianggap sebagai contoh, dimana challenge diberikan dengan tingkat kesulitan yang berjenjang dan berseri (build on top of the other). Sehingga mentor dipersilahkan jika memiliki challenge berupa contoh kasus sendiri.
+> ### **Note: Challenges yang ada boleh dianggap sebagai contoh, dimana challenge diberikan dengan tingkat kesulitan yang berjenjang dan berseri (build on top of the other). Sehingga mentor dipersilahkan jika memiliki challenge berupa contoh kasus sendiri.**
 
 Untuk lebih jelasnya silahkan menonton [video HTML-CSS Mentoring Briefing](https://drive.google.com/file/d/1qwT25lN7Swuwc5HT1tPW7r1uwp2glC4W/view?usp=sharing).
 

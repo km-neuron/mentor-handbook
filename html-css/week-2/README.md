@@ -2,7 +2,7 @@
 
 ## Basic Rules
 - **This is not a demo!**
-- The challenges are for reference, can be used as is, customized or completely use your own challenges. Keep in mind the Learning Objectives!
+- ### **The challenges are for reference, can be used as is, customized or completely use your own challenges. Keep in mind the Learning Objectives!**
 - Mentor will be the facilitator, guiding the mentee to solve the tasks.
   - Share screen method
     - One person will share their screen, can be the mentor and one of the mentee.
