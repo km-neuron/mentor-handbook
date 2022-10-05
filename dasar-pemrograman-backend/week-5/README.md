@@ -25,16 +25,22 @@
 
 ## Basic
 
-### TBA
+### Basic Login Page
 
 - Concepts:
-  - TBA
+  - Authentication and Routing
 - Input:
-  - TBA
+  - A simple HTML page showing login.
 - Output:
-  - TBA
+  - Change to another page, deny access if not logged in
 - Directions:
-  - TBA
+  - Create ListenAndServe
+  - Create two routing, login and dashboard
+  - Dashboard is protected, method of protection can use simple flag or use HTTP basic auth
+  - Create login page with form.
+  - Use static username and passwor for now.
+  - If valid login, then show dashboard.
+  - Content of dashboard can be a simple Hello World.
 
 ### TBA
 
