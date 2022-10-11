@@ -83,3 +83,16 @@
   - Follow Simple Map of Attendance Data
 - Directions:
   - Follow Simple Map of Attendance Data, except the last directions, in this challenge, it must be dynamic.
+
+### Multi-dimensional
+
+- Concepts:
+  - Slice of Map
+- Input:
+  - A string containing 'Present/Absent/Sick' multiple times, mixed with names, can be 1 or 2 names. The name will the separator. So, the data is an attendance data in the following format: name, status, status, status, status, name, status, status, status, status.
+- Output:
+  - Slice of map with name and attendance data, e.g.
+    map[Budi: Present:3, Absent:1, Sick:0]
+    map[Adi: Present:4, Absent:0, Sick:0]
+- Directions:
+  - Free flow
