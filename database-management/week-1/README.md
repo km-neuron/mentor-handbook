@@ -101,7 +101,7 @@
   - One association table called attendance
   - Data inserted into database
 - Directions:
-- Given the input, draw table structure ( preferrably using draw.io or ERD tools )
+  - Given the input, draw table structure ( preferrably using draw.io or ERD tools )
     - make note of the primary key
     - make note of foreign key
     - make note of association table that need to be created which contains Primary Keys of two tables ( employee and attendanceStatus) and field date
