@@ -3,12 +3,12 @@ import { Link } from "react-router-dom"
 export function HomeRoute() {
     return (
         <>
-            <div>
+            <h1>
                 Welcome to my Books Collection
-            </div>
-            <div>
+            </h1>
+            <h2>
                 <Link to="/book">Enter</Link>
-            </div>
+            </h2>
         </>
     )
 }

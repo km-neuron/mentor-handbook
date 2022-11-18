@@ -1,12 +1,13 @@
 export function BookDetailCard(props) {
     return (
-        <>
-            <div>
+        <div style={{"text-align":"left",padding:"1em"}}>
+            <h3>
                 Title: {props.book.title}
-            </div>
-            <div>
-                Description: {props.book.description}
-            </div>
-        </>
+            </h3>
+            <h4>
+                Description:<br/>
+                {props.book.description}
+            </h4>
+        </div>
     )
 }

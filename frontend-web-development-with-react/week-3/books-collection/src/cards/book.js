@@ -3,8 +3,9 @@ import { Link } from "react-router-dom"
 export function BookCard(props) {
     return (
         <div>
-            Title: {props.name}
-            <Link to={props.isbn}>Detail</Link>
+            <h2>
+                {props.position}. <Link to={props.bookData.isbn}>{props.bookData.title}</Link>
+            </h2>
         </div>
     )
 }
