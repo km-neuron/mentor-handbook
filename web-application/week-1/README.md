@@ -51,57 +51,25 @@
   - Style the quote as desired.
   - See example at "/quoteApp/" folder.
 
-### HRApp - Department Data
-
-- Concepts:
-  - Data modeling
-  - Primary Key
-  - Foreign Key
-  - CREATE TABLE ...
-  - INSERT INTO ...
-  - SELECT ... FROM ... WHERE ...
-  - UPDATE ... SET .. WHERE ...
-  - DELETE ... FROM ... WHERE ...
-  - JOIN two tables
-- Input:
-  - Database "hrApp" with Employee table
-  - Department Data ( name (text), head_department (link to employee_id) )
-- Output:
-  - Data inserted to database
-- Directions:
-  - Given the input, draw table structure ( preferrably using draw.io or ERD tools )
-    - make note of the primary key
-    - make note of foreign key used by head_department
-  - Open Postgres pgAdmin / DBeaver / other tool
-  - Use Database "hrApp"
-  - Create table using Golang.
-  - Insert some data using Golang.
-  - Select some data from the table using Golang.
-  - Optional
-    - Do update and delete like insert using Golang.
-  - Select the name of the department head using SQL JOIN
-
 ## Challenging
 
-### Attendance Data
+### Quote App with Database
 
 - Concepts:
-  - All the above challenges
-  - Database relationship / association
+  - Same as Quote App
+  - Database CRUD
+    - Create database
+    - Create Table
+    - Insert Data into Table
+    - Select Data from Table
 - Input:
-  - As above
-  - Add attendanceStatus with one field ( status ) which will be filled with present or absent.
+  - Same as Quote App
 - Output:
-  - One association table called attendance
-  - Data inserted into database
+  - Quote inserted to database
 - Directions:
-- Given the input, draw table structure ( preferrably using draw.io or ERD tools )
-    - make note of the primary key
-    - make note of foreign key
-    - make note of association table that need to be created which contains Primary Keys of two tables ( employee and attendanceStatus) and field date
-  - Use Database "hrApp"
-  - Create table attendanceStatus.
-  - Create association table called attendance.
-  - Insert data for attendanceStatus.
-  - Insert data for attendace.
-  - Select employee name and attendance status for one employee by name on one date from the database.
+  - Best to continue using the Quote App.
+  - Create database first to store the quotes.
+  - Create table to store the quotes.
+  - Add insert into database for the quotes, if there is endpoint that can get .more than 1 data, then use that endpoint.
+  - Use select to return the count of quotes in the table.
+  - And use select to return one quote of the day.
