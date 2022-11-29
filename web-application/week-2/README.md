@@ -51,6 +51,7 @@
     - 1 for /quote_of_the_day/  (endpoint can be changed)
   - Random endpoint should return random quote from database everytime the page is called.
   - Quote of the day should only change every 24 hours, so each call if still within same day, should not change the quote.
+  - Use Postman Echo to test the endpoints
   - Style the quote as desired.
 
 ## Challenging
