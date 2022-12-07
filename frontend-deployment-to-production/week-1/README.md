@@ -32,7 +32,7 @@
   - Deployment to Netlify.
 - Input:
   - Any application from previous mentoring or can be as easy as "Hello World".
-  - A sample app is available in "horoscope/".
+    - A sample app is available in "horoscope/".
 - Output:
   - Application deployed to Netlify.
 - Directions:
@@ -52,7 +52,7 @@
   - Deployment to Firebase
 - Input:
   - Any application from previous mentoring or can be as easy as "Hello World"
-  - A sample app is available in "horoscope/"
+    - A sample app is available in "horoscope/"
 - Output:
   - Application deployed to Firebase
 - Directions:
@@ -62,9 +62,10 @@
   - Run Build Process.
   - Run from terminal firebase login.
   - Run from terminal firebase init.
-  - Use the "build/" folder as the public directory.
+    - Use the "build/" folder as the public directory.
   - Run from terminal firebase deploy.
   - Check deploy is successful.
+    - Sample app deployed at https://deploy-demo-km.web.app
   - Reference: https://neurons.ruangguru.com/course/frontend-development/frontend-deployment-to-production/deploy-to-firebase?limit=true
 
 ## Challenging
