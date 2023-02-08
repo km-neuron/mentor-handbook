@@ -59,30 +59,6 @@
 
 ## Basic
 
-### Simple Calculator
-- Concepts: 
-  - Function and simple math calculation
-  - PNPM setup
-  - CommonJS Modules
-- Input: 
-  - None
-- Output:
-  - Two files 
-- Directions: 
-  - Create a new folder for the calculator files
-    - Run pnpm init
-    - Show package.json
-  - Create a new file to hold simple calculation functions
-    - Create addition function, followed by subtraction, multiplication and division.
-    - Test the individual function works using console.log.
-    - Export the functions using CommonJS, using modules.exports object.
-  - Create a new file as the main process file
-    - Use CommonJS import to get functions from the simple calculation file
-    - Create console.log lines to do the calculations, use different numbers to differentiate between this and the testing done before
-    - Run the process file and show that we're using the process file to run the calculator
-- Rule
-  - N/A
-
 ### Simple Calculator with ESModules
 - Concepts: 
   - Function and simple math calculation
@@ -103,24 +79,6 @@
 - Rule
   - N/A
 
-### Simple Shopping using Callback
-- Concepts: 
-  - Create and use callback
-- Input: 
-  - One number with integer
-  - One list of array of object with two keys: "product" and "price", 3 objects should be enough
-- Output:
-  - A series of console.log, one for each callback
-- Directions: 
-  - Create a number with integer which will be the money in wallet
-  - Create the array of object as above
-  - Create callback function so, each time the callback function is called, something will be bought and money in wallet will be deducted.
-  - Output will be product bought and money leftover
-  - Console.log the output from inside the callback function.
-  - Repeat until money is not enough.
-- Rule
-  - N/A
-
 ### Simple Shopping using Promise
 - Concepts: 
   - Create and use Promise
@@ -130,18 +88,6 @@
   - Same as above
 - Directions:
   - Same as above, but using Promise
-- Rule:
-  - N/A
-
-### Simple Shopping using Async Await
-- Concepts: 
-  - Create and use Async Await
-- Input: 
-  - Same as above
-- Output: 
-  - Same as above
-- Directions:
-  - Same as above but using Async Await
 - Rule:
   - N/A
 
