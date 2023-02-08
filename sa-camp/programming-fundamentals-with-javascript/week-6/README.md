@@ -81,14 +81,20 @@
 
 ### Simple Shopping using Promise
 - Concepts: 
-  - Create and use Promise
+  - Create and use promise
 - Input: 
-  - Same as above
-- Output: 
-  - Same as above
-- Directions:
-  - Same as above, but using Promise
-- Rule:
+  - One number with integer
+  - One list of array of object with two keys: "product" and "price", 3 objects should be enough
+- Output:
+  - A series of console.log, one for each promise
+- Directions: 
+  - Create a number with integer which will be the money in wallet
+  - Create the array of object as above
+  - Create promise function so, each time the promise function is called, something will be bought and money in wallet will be deducted.
+  - Output will be product bought and money leftover
+  - Console.log the output from inside the promise function.
+  - Repeat until money is not enough.
+- Rule
   - N/A
 
 ### Quote App
