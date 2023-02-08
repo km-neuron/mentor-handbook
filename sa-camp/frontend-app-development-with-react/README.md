@@ -2,7 +2,7 @@
 
 Selamat datang para mentor ke materi Frontend Web Development with React (React) dari Ruangguru CAMP.
 
-Di materi React, para siswa akan belajar pengetahuan praktis React App, mulai dari penggunaan CRA (Create React App), JSX hingga pembuatan Functional Component, pertukaran data dengan Props, State dan Component Data Flow, React Lifecycle, Hooks, event handling dan React Router DOM, State Management serta ChakraUI.
+Di materi React, para siswa akan belajar pengetahuan praktis React App, mulai dari penggunaan CRA (Create React App), JSX hingga pembuatan Functional Component, pertukaran data dengan Props, State dan Component Data Flow, React Lifecycle, Hooks, event handling dan React Router DOM, State Management, ChakraUI serta melakukan deployment aplikasi, khususnya React ke PaaS, Netlify dan Firebase.
 
 Sesi mentoring yang diharapkan adalah sesi praktek sehingga siswa akan lebih banyak melakukan aktivitas dan mentor akan memberi arahan melalui challenges yang kami sudah siapkan.
 
