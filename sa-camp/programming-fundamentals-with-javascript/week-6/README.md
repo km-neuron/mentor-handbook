@@ -14,7 +14,7 @@
 
 ## Learning Objectives
 
-- Understand how to use CommonJS Modules in NodeJS
+- Understand how to use CommonJS Modules in NodeJS (Optional)
     - Able to use CommonJS export
     - Able to use CommonJS require
     - Able to use pass variables between two files using CommonJS module
@@ -31,12 +31,12 @@
         - instantiate using new
         - this as reference to self in OOP
     - Explain method chaining theory
-- Callback
+- Callback (Optional)
     - Able to use create callback function
 - Promise
     - Able to create a promise
     - Able to use a promise
-- Async Await
+- Async Await (Optional)
     - Able to create an async function
     - Able to use await inside the function
 - Able to fetch data from server using REST API.
@@ -64,6 +64,7 @@
   - Function and simple math calculation
   - PNPM setup
   - ES Modules
+  - CommonJS Modules (Optional)
 - Input: 
   - None
 - Output:
@@ -82,6 +83,8 @@
 ### Simple Shopping using Promise
 - Concepts: 
   - Create and use promise
+  - Create and use callback (optional)
+  - Create and use async await (optional)
 - Input: 
   - One number with integer
   - One list of array of object with two keys: "product" and "price", 3 objects should be enough
@@ -94,6 +97,7 @@
   - Output will be product bought and money leftover
   - Console.log the output from inside the promise function.
   - Repeat until money is not enough.
+  - For callback and async await, just change the promise to either callback or async await.
 - Rule
   - N/A
 
