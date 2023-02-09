@@ -3,7 +3,7 @@
 ## Basic Rules
 
 - **This is not a demo!**
-- **The challenges are for reference, can be used as is, customized or completely use your own challenges. Keep in mind the Learning Objectives!**
+- The challenges are for reference, can be used as is, customized or completely use your own challenges. Keep in mind the Learning Objectives!
 - Mentor will be the facilitator, guiding the mentee to solve the tasks.
   - Share screen method
     - One person will share their screen, can be the mentor and one of the mentee.
@@ -15,6 +15,9 @@
   
 ## Learning Objectives
 
+- Understand how to interact with files (I/O)
+- Understand how to create a HTTP server
+- Understand how to use HTTP client
 - Understand REST API.
 - Able to retrieve data using REST API.
 - Able to serve data using REST API.
@@ -27,6 +30,51 @@
 - Postgres installed in local computer
 
 ## Basic
+
+### Read and write simple JSON file
+
+- Concepts:
+  - IO File, IO JSON
+- Input:
+  - A simple JSON structure inside a file, can be as simple as first_name, last_name, birthdate
+- Output:
+  - Will read the JSON file and output to terminal, then update the JSON file with a new data.
+- Direction:
+  - Create a simple JSON file containing one data.
+  - Create a struct to hold the JSON data.
+  - Read the file using io
+  - Read and convert the JSON content to struct.
+  - Output the JSON struct to terminal.
+  - Append a new JSON data to struct
+  - Write the new JSON to file, can use append or overwrite the file.
+
+### Connect to 3rd party API
+
+- Concepts:
+  - Connect to a free 3rd party API
+- Input:
+  - Free 3rd party API data
+- Output:
+  - The data retrieved shown to terminal
+- Directions:
+  - Create the client
+  - Connect to 3rd party API data
+  - If processing is needed then process it.
+  - Output the data to terminal.
+
+### Simple web server
+
+- Concepts:
+  - Serve a simple calculator web server
+- Input:
+  - None
+- Output:
+  - A HTML file that will have two input boxes and 4 buttons (+, -, *, /)
+- Directions:
+  - Setup ListenAndServe()
+  - Can use template
+  - Show a HTML file with form containing 2 input boxes and 4 buttons (+, -, *, /)
+  - On click of the button will perform the calculation and output to terminal or redirect to new page with the calculation and the result, or on the same page, simply create a container.
 
 ### Quote App
 
@@ -53,6 +101,21 @@
   - See example at "/quoteApp/" folder.
 
 ## Challenging
+
+### Full application for anime or pokemon or other API
+
+- Concepts:
+  - Create a web server that will retrieve data from 3rd party API and then display the title only with a link to a detail page. If clicked, then the detail page will have more data.
+- Input:
+  - 3rd party API data
+- Output:
+  - A web application that can display data and have a favorite button implemented.
+- Directions:
+  - Create a client first to get the data from 3rd party API
+  - Create a server to serve the data
+  - First show the list with link to a detail page using route
+  - When the link is clicked then the detail page will show detail data based on the title.
+  - Have a link to get back to the list.
 
 ### Quote App with Database
 

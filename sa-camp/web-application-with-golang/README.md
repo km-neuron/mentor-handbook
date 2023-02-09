@@ -2,7 +2,7 @@
 
 Selamat datang para mentor ke materi Web Application (WebApp) dari Ruangguru CAMP.
 
-Di materi Web Application, para siswa akan lebih banyak praktek membuat sebuah server menggunakan materi yang sudah dipelajari sebelumnya. Pembekalan materi baru di WebApp mencakup REST API, Clean Architecture using MVC, Postman sebagai alat untuk menguji _endpoint_ API dan deployment ke Paas Fly.io.
+Di materi Web Application, para siswa akan lebih banyak praktek membuat sebuah server menggunakan materi yang sudah dipelajari sebelumnya. Pembekalan materi baru di WebApp mencakup REST API, Clean Architecture using MVC, Postman sebagai alat untuk menguji _endpoint_ API dan deployment ke Paas.
 
 Sesi mentoring yang diharapkan adalah sesi praktek sehingga siswa akan lebih banyak melakukan aktivitas dan mentor akan memberi arahan melalui challenges yang kami sudah siapkan.
 
