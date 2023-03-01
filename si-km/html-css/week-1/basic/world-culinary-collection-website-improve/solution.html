@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>World Culinary Collection</title>
+	<style>
+		/* Header */
+		header {
+			text-align: center;
+			background-color: #F6C90E;
+			padding: 20px;
+		}
+
+		h1 {
+			font-size: 36px;
+			margin: 0;
+		}
+
+		/* Culinary section */
+		.culinary-section {
+			display: grid;
+			grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+			grid-gap: 20px;
+			margin: 40px 0;
+		}
+
+		.culinary-section img {
+			width: 100%;
+			height: auto;
+			object-fit: cover;
+			border-radius: 10px;
+		}
+
+		.culinary-section h2 {
+			font-size: 24px;
+			margin: 10px 0;
+		}
+
+		.culinary-section p {
+			font-size: 16px;
+			margin: 10px 0;
+		}
+
+		.culinary-section a {
+			font-size: 16px;
+			font-weight: bold;
+			text-decoration: none;
+			color: #F6C90E;
+			border: 2px solid #F6C90E;
+			padding: 10px 20px;
+			border-radius: 5px;
+			transition: all 0.3s ease;
+		}
+
+		.culinary-section a:hover {
+			background-color: #F6C90E;
+			color: #fff;
+		}
+
+		.culinary-section a:visited {
+			color: #000;
+		}
+
+		/* Middle section */
+		#middle-section {
+			background-color: #C9F64E;
+			padding: 40px;
+			text-align: center;
+		}
+
+		#middle-section h2 {
+			font-size: 36px;
+			margin: 0;
+		}
+
+		#middle-section p {
+			font-size: 18px;
+			margin: 20px 0;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<h1>World Culinary Collection</h1>
+	</header>
+
+    <section class="culinary-section">
+        <div class="culinary-item">
+            <img src="https://images.unsplash.com/photo-1473093295043-cdd812d0e601?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="Italian Cuisine">
+            <h2>Italian Cuisine</h2>
+            <p>Enjoy the taste of Italy with these delicious recipes, including pasta dishes, pizza, tiramisu, and more.</p>
+            <a href="#">View Recipes</a>
+        </div>
+    
+        <div class="culinary-item">
+            <img src="https://images.unsplash.com/photo-1611143669185-af224c5e3252?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80" alt="Japanese Cuisine">
+            <h2>Japanese Cuisine</h2>
+            <p>Experience the authentic flavors of Japan with these recipes, including sushi, ramen, tempura, and more.</p>
+            <a href="#">View Recipes</a>
+        </div>
+    
+        <div class="culinary-item">
+            <img src="https://images.unsplash.com/photo-1644704338407-e7ba5a5de8f5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80" alt="Mexican Cuisine">
+            <h2>Mexican Cuisine</h2>
+            <p>Spice up your dinner table with these delicious Mexican recipes, including tacos, enchiladas, guacamole, and more.</p>
+            <a href="#">View Recipes</a>
+        </div>
+    
+        <div class="culinary-item">
+            <img src="https://images.unsplash.com/photo-1613292443284-8d10ef9383fe?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80" alt="Indian Cuisine">
+            <h2>Indian Cuisine</h2>
+            <p>Indulge in the flavors of India with these recipes, including curry dishes, samosas, naan bread, and more.</p>
+            <a href="#">View Recipes</a>
+        </div>
+    
+        <div class="culinary-item">
+            <img src="https://images.unsplash.com/photo-1559847844-5315695dadae?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=858&q=80" alt="Thai Cuisine">
+            <h2>Thai Cuisine</h2>
+            <p>Transport your taste buds to Thailand with these authentic Thai recipes, including pad thai, tom yum soup, green curry, and more.</p>
+            <a href="#">View Recipes</a>
+        </div>
+    
+        <div class="culinary-item">
+            <img src="https://images.unsplash.com/photo-1677029969065-c9f4003a9ad5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80" alt="Korean Cuisine">
+            <h2>Korean Cuisine</h2>
+            <p>Experience the unique flavors of Korea with these delicious recipes, including kimchi, bibimbap, bulgogi, and more.</p>
+            <a href="#">View Recipes</a>
+        </div>
+    </section>
+
+    <section id="middle-section">
+		<h2>About Us</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam quis eros luctus, blandit nibh nec, scelerisque ipsum. Donec in ex velit. Integer vestibulum augue vitae blandit feugiat. Fusce euismod eros sed augue pharetra varius. Maecenas molestie ac purus a auctor. Nulla facilisi. Nulla tristique, nunc nec ultricies faucibus, dolor ipsum sollicitudin felis, at iaculis quam justo ac libero. Donec eget ligula orci. Ut commodo, nulla nec luctus elementum, lacus leo semper justo, in commodo ipsum odio in lectus. Donec quis rutrum orci, id congue mauris. Etiam nec augue aliquet, pretium velit quis, commodo arcu. Etiam eget dui mi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed lobortis, risus ut vehicula imperdiet, elit nisi feugiat dolor, eu tincidunt sapien sapien nec diam. Suspendisse vehicula vel augue vel eleifend. Donec ac tellus quis tellus cursus maximus sed in sapien. Pellentesque tincidunt massa at mi fringilla, eu bibendum sapien eleifend. Nam suscipit diam in velit mollis, eget semper eros fermentum. Sed congue lorem ac est iaculis convallis.</p>
+	</section>
+</body>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>World Culinary Collection</title>
+    <style>
+      /* grid container styles */
+      .grid-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-gap: 20px;
+      }
+
+      /* grid item styles */
+      .grid-item {
+        background-color: #f5f5f5;
+        border-radius: 5px;
+        padding: 20px;
+      }
+
+      /* image styles */
+      .grid-item img {
+        max-width: 100%;
+      }
+
+      /* title styles */
+      .grid-item h2 {
+        font-size: 1.5rem;
+        margin-top: 0;
+        margin-bottom: 10px;
+      }
+
+      /* description styles */
+      .grid-item p {
+        font-size: 1.2rem;
+        line-height: 1.5;
+      }
+
+      /* link styles */
+      .grid-item a {
+        display: inline-block;
+        margin-top: 10px;
+        padding: 10px 20px;
+        background-color: #333;
+        color: #fff;
+        border-radius: 5px;
+        text-decoration: none;
+        font-size: 1.2rem;
+        font-weight: bold;
+      }
+
+      /* link hover styles */
+      .grid-item a:hover {
+        background-color: #666;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>World Culinary Collection</h1>
+    <div class="grid-container">
+      <div class="grid-item">
+        <img src="https://via.placeholder.com/300x200" alt="Culinary 1">
+        <h2>Culinary 1</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vel libero et tellus iaculis bibendum. Integer malesuada, tellus eu volutpat tristique, elit sapien vehicula metus, non malesuada orci metus a odio.</p>
+        <a href="#">Learn More</a>
+      </div>
+      <div class="grid-item">
+        <img src="https://via.placeholder.com/300x200" alt="Culinary 2">
+        <h2>Culinary 2</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vel libero et tellus iaculis bibendum. Integer malesuada, tellus eu volutpat tristique, elit sapien vehicula metus, non malesuada orci metus a odio.</p>
+        <a href="#">Learn More</a>
+      </div>
+      <div class="grid-item">
+        <img src="https://via.placeholder.com/300x200" alt="Culinary 3">
+        <h2>Culinary 3</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vel libero et tellus iaculis bibendum. Integer malesuada, tellus eu volutpat tristique, elit sapien vehicula metus, non malesuada orci metus a odio.</p>
+        <a href="#">Learn More</a>
+      </div>
+    </div>
+  </body>
+</html>

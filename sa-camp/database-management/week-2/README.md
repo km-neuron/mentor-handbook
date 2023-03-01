@@ -7,10 +7,10 @@
   - Share screen method
     - One person will share their screen, can be the mentor and one of the mentee.
     - Mentee will take turn in giving the correct syntax to be typed by person sharing his/her screen.
-  - Using tools such as replit https://replit.com/
+  - Using tools such as replit <https://replit.com/>
     - Everyone can login using their own account.
     - Mentor can have a tab for each mentee to monitor their work.
-    - Details over at Discord: https://discord.com/channels/996138478817513632/996141512704401579/1019923694254043136
+    - Details over at Discord: <https://discord.com/channels/996138478817513632/996141512704401579/1019923694254043136>
   
 ## Learning Objectives
 
@@ -102,3 +102,11 @@
   - Insert data for attendanceStatus.
   - Insert data for attendace.
   - Select employee name and attendance status for one employee by name on one date from the database.
+
+## Live Code
+
+Develop Todo App CLI with 15 Minutes
+
+```bash
+
+```

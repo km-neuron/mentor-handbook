@@ -59,3 +59,11 @@
   - Show how the output is kind of random, if possible show the time taken to complete.
   - Update to use concurrency using channel
   - Reference: <https://articles.wesionary.team/practical-example-of-concurrency-on-golang-fc4609ea8ed1>
+
+## Live Code
+
+Develop Todo App CLI with 15 Minutes
+
+```bash
+
+```

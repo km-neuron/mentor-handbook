@@ -123,3 +123,11 @@
   - Create an HTML file with a header, main content area, sidebar, footer, and product listings
   - Add CSS styles to the HTML file to style the header, main content area, sidebar, footer, and product listings
   - Experiment with different CSS styles to understand how they affect the layout and appearance of the e-commerce website.
+
+## Live Code
+
+Develop Todo App CLI with 15 Minutes
+
+```bash
+
+```
