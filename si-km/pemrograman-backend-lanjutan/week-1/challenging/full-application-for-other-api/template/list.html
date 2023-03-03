@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Anime List</title>
+</head>
+<body>
+	<h1>Anime List</h1>
+	{{range .}}
+		<div>
+			<a href="/detail?title={{.Title}}">{{.Title}}</a>
+		</div>
+	{{end}}
+</body>
+</html>
