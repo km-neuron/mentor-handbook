@@ -16,8 +16,6 @@
 ## Learning Objectives
 
 - Understand how Concurrency works
-- Understand how to use Authentication
-- Understand how to use Custom Routing
 
 ## Pre-requisites
 
@@ -25,23 +23,6 @@
 - Golang installed in local computer
 
 ## Basic
-
-### Basic Login Page
-
-- Concepts:
-  - Authentication and Routing
-- Input:
-  - A simple HTML page showing login.
-- Output:
-  - Change to another page, deny access if not logged in
-- Directions:
-  - Create ListenAndServe
-  - Create two routing, login and dashboard
-  - Dashboard is protected, method of protection can use simple flag or use HTTP basic auth
-  - Create login page with form.
-  - Use static username and passwor for now.
-  - If valid login, then show dashboard.
-  - Content of dashboard can be a simple Hello World.
 
 ### Social Media Status Checker
 
