@@ -4,8 +4,9 @@ import (
 	"encoding/json"
 	"fmt"
 	"io/ioutil"
-	"log"
 	"net/http"
+
+	"github.com/gin-gonic/gin"
 )
 
 type Quotes struct {
@@ -15,47 +16,51 @@ type Quotes struct {
 }
 
 func main() {
+	r := gin.Default()
 
-	// Statement yang menghasilkan instance http.Client, diperlukan untuk eksekusi request
-	var client = &http.Client{}
+	// Handle GET request to /random endpoint
+	r.GET("/random", func(c *gin.Context) {
+		// Create HTTP client instance
+		client := &http.Client{}
 
-	// http.NewRequest() digunakan untuk membuat request baru
-	req, err := http.NewRequest("GET", "https://zenquotes.io/api/random", nil)
-	if err != nil {
-		panic(err)
-	}
+		// Create new request
+		req, err := http.NewRequest("GET", "https://zenquotes.io/api/random", nil)
+		if err != nil {
+			c.JSON(http.StatusInternalServerError, gin.H{"error": err.Error()})
+			return
+		}
 
-	// Request dengan method `Do()` pada instance http.Client yang sudah dibuat
-	resp, err := client.Do(req)
-	if err != nil {
-		panic(err)
-	}
+		// Send the request
+		resp, err := client.Do(req)
+		if err != nil {
+			c.JSON(http.StatusInternalServerError, gin.H{"error": err.Error()})
+			return
+		}
+		defer resp.Body.Close()
 
-	// Cetak status code request
-	fmt.Println("Status: ", resp.Status)
+		// Read the response body
+		responseData, err := ioutil.ReadAll(resp.Body)
+		if err != nil {
+			c.JSON(http.StatusInternalServerError, gin.H{"error": err.Error()})
+			return
+		}
 
-	// Kita bisa membaca response body menggunakan package ioutil.
-	responseData, err := ioutil.ReadAll(resp.Body)
-	if err != nil {
-		log.Fatal(err)
-	}
+		// Unmarshal the response body into Quotes struct
+		var quote []Quotes
+		if err := json.Unmarshal(responseData, &quote); err != nil {
+			c.JSON(http.StatusInternalServerError, gin.H{"error": err.Error()})
+			return
+		}
 
-	// Convert body type menjadi string dan cetak
-	fmt.Println(string(responseData))
-
-	var quote []Quotes
-	var err2 = json.Unmarshal(responseData, &quote)
-	if err2 != nil {
-		fmt.Println(err2)
-	}
-
-	fmt.Println(string(quote[0].Quote))
-
-	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
-		fmt.Fprintln(w, "<html><head><title>My quote</title></head><body>"+quote[0].QuoteHTML+"</body></html>")
+		c.JSON(http.StatusOK, gin.H{"quote": quote[0].Quote})
 	})
 
-	fmt.Println("starting web server at localhost:8080")
-	http.ListenAndServe(":8080", nil)
+	// Serve HTML page with quote
+	r.GET("/", func(c *gin.Context) {
+		c.HTML(http.StatusOK, "<html><head><title>My quote</title></head><body>"+quote[0].QuoteHTML+"</body></html>")
+	})
 
+	// Run the server
+	fmt.Println("Starting web server at localhost:8080")
+	r.Run(":8080")
 }

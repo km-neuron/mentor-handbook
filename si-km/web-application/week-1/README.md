@@ -15,6 +15,7 @@
 ## Learning Objectives
 
 - Understand REST API.
+- Able to use Gin
 - Able to retrieve data using REST API.
 - Able to serve data using REST API.
 
