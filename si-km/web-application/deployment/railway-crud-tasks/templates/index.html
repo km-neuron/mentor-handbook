@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tasks</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <h1>Tasks</h1>
+
+    <form action="/tasks" method="post">
+        <label for="title">Title:</label><br>
+        <input type="text" id="title" name="title"><br>
+        <label for="status">Status:</label><br>
+        <select id="status" name="status">
+            <option value="true">Done</option>
+            <option value="false">Not Done</option>
+        </select><br>
+        <input type="submit" value="Submit">
+    </form>
+
+    <table>
+        <tr>
+            <th>Title</th>
+            <th>Status</th>
+            <th>Actions</th>
+        </tr>
+        {{range .}}
+        <tr>
+            <td>{{.Title}}</td>
+            <td>{{if .Status}}Done{{else}}Not Done{{end}}</td>
+            <td>
+                <form action="/tasks/delete/{{.ID}}" method="post">
+                    <input type="submit" value="Delete">
+                </form>
+            </td>
+        </tr>
+        {{end}}
+    </table>
+</body>
+</html>
